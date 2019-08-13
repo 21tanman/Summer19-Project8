@@ -1,3 +1,11 @@
+/*
+Tanner Franz
+Summer '19 Projects
+Project8 CB:DePalma
+Single linked list manipulation
+All Functions Completed
+*/
+
 #include <iostream>
 #include <cstdlib>
 #include<cstring>
@@ -10,7 +18,7 @@ List3::List3()
  length = 0;
 }
 
-List3:: ~List3()
+List3:: ~List3()  
 {
  node* cur = new node;
  while (length != 0)
@@ -24,7 +32,7 @@ List3:: ~List3()
  
 
  
-void List3::PutItem(int pos, itemType item)
+void List3::PutItem(int pos, itemType item )
 {
  if(pos >length)
  {

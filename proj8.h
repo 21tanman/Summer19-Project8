@@ -4,7 +4,7 @@ Paul De Palma
 GU Username: depalma
 Submitted By: Paul De Palma
 GU Username: depalma
-File Name: proj8.h
+File Name: prfeoj8.h
 Header file for a with:
 1) The capacity to copy a list with the copy constructor
 2) The capacity to manipulate a node in any position
@@ -12,7 +12,7 @@ To Build: g++ proj8Tst.cpp proj.cpp
 To Execute: ./a.out
 */
 
-
+     
 
 
 #ifndef LIST3_H
